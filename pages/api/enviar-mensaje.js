@@ -4,7 +4,7 @@ export default async function handler (req, res) {
     }
     const { nombre, email, mensaje } =req.body;
     try {
-        const response = await fetch('https://webhookn8nproducction/webhook/contacto',{
+        const response = await fetch('https://primary-production-98ab7.up.railway.app/webhook/contacto',{
                 method: 'POST',
                  headers: {
                      'Content-Type': 'application/json',
